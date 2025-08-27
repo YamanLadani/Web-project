@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <div class="logo">🌟 MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Hello, I’m <span class="highlight">Yaman Ladani</span></h1>
+    <p>Web Developer | Designer | Problem Solver</p>
+    <button onclick="scrollToSection('projects')">See My Work</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="profile.jpg" alt="My profile picture" class="profile-pic">
+      <p>
+        I am a passionate web developer with experience in building creative, 
+        responsive, and user-friendly websites. My goal is to craft unique digital 
+        experiences that stand out.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="project1.png" alt="Screenshot of Project 1">
+        <h3>Project One</h3>
+        <p>Interactive portfolio with animations and smooth design.</p>
+      </div>
+      <div class="project-card">
+        <img src="project2.png" alt="Screenshot of Project 2">
+        <h3>Project Two</h3>
+        <p>Responsive e-commerce website with dynamic cart features.</p>
+      </div>
+      <div class="project-card">
+        <img src="project3.png" alt="Screenshot of Project 3">
+        <h3>Project Three</h3>
+        <p>Personal blog with clean layout and easy navigation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <li>🌐 HTML5 / CSS3 / JavaScript</li>
+      <li>⚡ React / Node.js</li>
+      <li>🎨 UI/UX Design</li>
+      <li>📱 Responsive Web Design</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Creative Portfolio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
